@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <MainButtonDef>
+    <defName>Factions</defName>
+    <label>factions</label>
+    <description>Review the other factions on this world and their relationships.</description>
+    <tabWindowClass>Conquest.MainTabWindow_Factions</tabWindowClass>
+    <order>90</order>
+    <validWithoutMap>true</validWithoutMap>
+    <minimized>True</minimized>
+    <iconPath>UI/Buttons/MainButtons/Factions</iconPath>
+  </MainButtonDef>
+  
+</Defs>

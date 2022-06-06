@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+    <name>Conquest</name>
+    <author>GladGladius</author>
+    <url>www.anything.com</url>
+    <packageId>Glad.Conquest</packageId>
+    <supportedVersions>
+        <li>1.0</li>
+        <li>1.1</li>
+        <li>1.2</li>
+        <li>1.3</li>
+    </supportedVersions>
+
+    <description>Sample description.
+        
+Which spans multiple lines. Is also includes whitespace, so unless you want ugly indentation on the workshop, you need to have it un-beautified like this.
+    </description>
+
+    <modDependencies>
+    <!-- Using hugslib as an example here. -->
+        <li>
+            <packageId>UnlimitedHugs.HugsLib</packageId>
+            <displayName>HugsLib</displayName>
+            <downloadUrl>https://github.com/UnlimitedHugs/RimworldHugsLib/releases/latest</downloadUrl>
+            <steamWorkshopUrl>steam://url/CommunityFilePage/818773962</steamWorkshopUrl>
+        </li>
+    </modDependencies>
+    <modDependenciesByVersion>
+        <v1.1>
+            <li>
+                <packageId>UnlimitedHugs.HugsLib</packageId>
+                <displayName>HugsLib</displayName>
+                <steamWorkshopUrl>https://github.com/UnlimitedHugs/RimworldHugsLib/releases/latest</steamWorkshopUrl>
+                <downloadUrl>steam://url/CommunityFilePage/818773962</downloadUrl>
+            </li>
+        </v1.1>
+    </modDependenciesByVersion>
+
+    <loadAfter>
+        <li>UnlimitedHugs.HugsLib</li>
+    </loadAfter>
+</ModMetaData>
